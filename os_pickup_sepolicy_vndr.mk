@@ -12,4 +12,4 @@ else ifneq ($(filter $(UM_6_6_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     include device/qcom/sepolicy_vndr/sm8750/SEPolicy.mk
 endif
 
--include device/lineage/sepolicy/qcom/sepolicy.mk
+-include device/voltage/sepolicy/qcom/sepolicy.mk
